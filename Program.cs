@@ -32,5 +32,4 @@ int[] array = new int[Size_array];
 for (int i = 0; i < Size_array; i++)
 { array[i] = new Random().Next(10); }
 Console.WriteLine();
-for (int j = 0; j < array.Length; j++)
-{ Console.WriteLine($"{array[j]}"); }
+Console.WriteLine(string.Join(" ", array));
